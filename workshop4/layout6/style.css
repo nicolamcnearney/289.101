@@ -1,0 +1,42 @@
+div{
+    outline:2px solid black
+}
+.container{
+    width:920px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header{
+    background-color:blue;
+    height:200px;
+    width:460px;
+    float:left;
+}
+.greenbox{
+    background-color:lime;
+    height:200px;
+    width:920px;
+    float:left;
+}
+.content{
+    background-color:red;
+    height:500px;
+    width:920px;
+    float: left;
+}
+.smallboxes{
+    background-color:yellow;
+    height:190px;
+    width:180px;
+    float:left;
+    margin-left:40px;
+    margin-top:40px;
+}
+.bigboxes{
+    background-color:yellow;
+    height:190px;
+    width:400px;
+    float:left;
+    margin-left:40px;
+    margin-top:40px;
+}
