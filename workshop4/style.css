@@ -1,0 +1,136 @@
+div{
+    outline:5px solid black;
+}
+.container{
+    width:930px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header{
+    background-color:blue;
+    height:100px;
+    width:930px;
+}
+.brand{
+    background-color:yellow;
+    height:40px;
+    width:280px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.slogan{
+    background-color:yellow;
+    height:40px;
+    width:560px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.greenbox{
+    background-color:lime;
+    height:550px;
+    width:930px;
+}
+.redbox{
+    background-color:red;
+    height:450px;
+    width:930px;
+}
+.header2{
+    background-color:yellow;
+    height:120px;
+    width:870px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.images{
+    background-color:yellow;
+    height:240px;
+    width:270px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;    
+}
+.bluebox{
+    background-color:blue;
+    height:780px;
+    width:930px;
+}
+.album{
+    background-color:yellow;
+    height:90px;
+    width:870px;
+    float: left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.photos{
+    background-color:yellow;
+    height:180px;
+    width:195px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.greenbox2{
+    background-color:lime;
+    height:650px;
+    width:930px;
+}
+.header3{
+    background-color:yellow;
+    height:160px;
+    width:870px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.contents{
+    background-color:yellow;
+    height:400px;
+    width:270px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.redbox2{
+    background-color:red;
+    height:600px;
+    width:930px;
+}
+.header4{
+    background-color:yellow;
+    height:80px;
+    width:870px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.paragraph{
+    background-color:yellow;
+    height:430px;
+    width:570px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.contactinfo{
+    background-color:yellow;
+    height:240px;
+    width:270px;
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+.footer{
+    background-color:blue;
+    height:100px;
+    width:930px;
+}
+
+
+
+
+
