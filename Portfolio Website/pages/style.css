@@ -1,0 +1,49 @@
+div{
+    outline:1px solid black;
+}
+body{
+    background-color:#f2f2f2;
+    margin:0;
+}
+.header{
+    background-color:#f2f2f2;
+    color:#FFFFFF;
+    height:130px;
+}
+.nav{
+    max-width:950px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo{
+    margin-top:28px;
+    font-size:4rem;
+    float:left;
+}
+.name{
+    margin-top:55px;
+    margin-left:20px;
+    font-size:1rem;
+    float:left;
+}
+.links{
+    margin-top:55px;
+    font-size:1rem;
+    float:right;
+    color:#4B4E61;
+}
+.links a{
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+    margin-right:10px;
+}
+.blue{
+    color:#1b5374;
+}
+.rust{
+    color:#a54223;
+}
+.banner img{
+    width:100%;
+}
