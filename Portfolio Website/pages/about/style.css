@@ -45,3 +45,38 @@ body{
 .banner img{
     width:100%;
 }
+
+.about{
+    height:auto;
+    width:100%;
+    margin-top:50px;
+}
+.aboutjos{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.launch{
+    width:100%;
+    font-size:1.2rem;
+}
+.aboutdavid{
+    width:100%;
+    margin-top:50px;
+}
+.david{
+    width:500px;
+    float:left;
+}
+.david img{
+    width:100%;
+}
+.davidmcnearney{
+    width:585px;
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+
