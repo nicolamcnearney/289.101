@@ -45,3 +45,89 @@ body{
 .banner img{
     width:100%;
 }
+
+.container{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.starbrite{
+    width:100%;
+}
+
+.engineoils{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.twostrokeengineoil{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    height:300px;
+}
+.twostrokeengineoil img{
+    width:200px;
+    float:left;
+}
+.twostrokeoilinfo{
+    width:75%;
+    padding-left:20px;
+    float:left;
+}
+
+.fourstrokeengineoil{
+    width:100%;
+    height:300px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.fourstrokeengineoil img{
+    width:200px;
+    float:left;
+}
+.fourstrokeoilinfo{
+    width:75%;
+    padding-left:20px;
+    float:left;
+}
+
+.fueltreatment{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dieseltreatment{
+    width:100%;
+    height:300px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.dieseltreatment img{
+    width:200px;
+    float:left;
+}
+.enzymedieselinfo{
+    width:75%;
+    padding-left:20px;
+    float:left;
+}
+
+.gastreatment{
+    width:100%;
+    height:300px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.gastreatment img{
+    width:200px;
+    float:left;
+}
+.enzymegasinfo{
+    width:75%;
+    padding-left:20px;
+    float:left;
+}
