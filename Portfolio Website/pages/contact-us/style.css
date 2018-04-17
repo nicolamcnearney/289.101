@@ -61,35 +61,35 @@ body{
 .delivery img{
     height:40px;
     width:40px;
-    padding-top:20px;
+    padding-top:10px;
     padding-left:10px;
     padding-right:5px;
 }
 .address img{
     height:40px;
     width:40px;
-    padding-top:20px;
+    padding-top:10px;
     padding-left:10px;
     padding-right:5px;
 }
 .phone img{
     height:40px;
     width:40px;
-    padding-top:20px;
+    padding-top:10px;
     padding-left:10px;
     padding-right:5px;
 }
 .email img{
     height:40px;
     width:40px;
-    padding-top:20px;
+    padding-top:10px;
     padding-left:10px;
     padding-right:5px;
 }
 .fax img{
     height:40px;
     width:40px;
-    padding-top:20px;
+    padding-top:10px;
     padding-left:10px;
     padding-right:5px;
 }
@@ -102,7 +102,7 @@ body{
     height:100px;
     width:122px;
     font-size:1rem;
-    padding-top:10px;
+    padding-top:0px;
     padding-left:10px;
     padding-right:5px;
     float:left;
@@ -110,7 +110,7 @@ body{
 
 .contactus{
     width:100%;
-    height:550px;
+    height:500px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -123,62 +123,89 @@ body{
     margin-right:auto;
 }
 
-/* general dashed containers */
+/* general solid containers */
 .messagecontainer{
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    width:958px;
     margin-bottom: 20px;
     border:1px solid #ccc;
-    border-radius:4px;
-    padding: 20px;
+    border-radius:8px;
 }
 
-/* changing colors on same paragraph */
-.color{
-    color:red;
-    font-style: italic;
-}
-.color2{
-    color:blue;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-/* form styles */
-.mybtn{
-    color:black;
-    background-color: white;
-    font-size:16px;
-}
-.row{
-    margin-top: 5px;
-}
 /* rounded corners */
 .inputForm{
-    border-color: #b3b3b3;
+    border-color:#a54223;
     border-style:solid;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-   }
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.row{
+    width:958px;
+}
 
-.name{
+.fname{
     color:black;
+    width:44.3%;
     text-align: left;
-    border-color:grey;
+    border-color:#ccc;
+    border-radius:4px;
+    float:left;
+    padding:5px;
+    margin:20px;
 }
-.contactnumber{
+.lname{
     color:black;
-    text-align: center;
-    border-color:grey;
+    width:44.3%;
+    text-align: left;
+    border-color:#ccc;
+    border-radius:4px;
+    float:left;
+    padding:5px;
+    margin:20px;
 }
-.email{
+.number{
     color:black;
-    text-align:left;
-    border-color:grey;
-}
+    width:44.3%;
+    text-align: left;
+    border-color:#ccc;
+    border-radius:4px;
+    float:left;
+    padding:5px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
 
+}
+.emailcontact{
+    color:black;
+    width:44.3%;
+    text-align: left;
+    border-color:#ccc;
+    border-radius:4px;
+    float:left;
+    padding:5px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+textarea{
+    width:910px;
+    border-radius:4px;
+    margin-left:20px;
+    margin-right:20px;
+}
+/* form styles */
+.button{
+    color:#f2f2f2;
+    background-color:#a54223;
+    font-size:16px;
+    border-radius:4px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:428px;
+    margin-right:428px;
+    padding:10px;
+}
 
 footer{
     background-color:#1b5374;
