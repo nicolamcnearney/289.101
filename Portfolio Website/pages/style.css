@@ -42,45 +42,6 @@ body{
     margin-left:10px;
     margin-right:10px;
 }
-.productssubmenu ul li.on a{
-    height:2em;
-    padding-top: 2px;
-    background-color:#f2f2f2;
-    font-weight:bold;
-}
-.productssubmenu ul
-{    
-    padding: 15px 0px 0px 0px;  
-    list-style-type:none;
-    font-size:0.9em;
-    width:20em;
-    color:#fff;   
-    margin-left:-10px;
-}
-.productssubmenu ul a{
-    padding: 2px 20px 0px 0px;  
-    color:#fff;
-    text-decoration:none;
-    float:left;
-    width:19.2em;
-}
-.productssubmenu li a
-{
-    height:2em;
-    padding-top: 1px;
-    padding-left:15px;
-}
-.productssubmenu li a:hover{
-    background:url(../images/point.png) no-repeat;
-    cursor:pointer;
-}
-.productssubmenu {
-  display: none;
-}
-.productssubmenu li:hover .productssubmenu {
-  display: block;
-}
-
 .banner img{
     width:100%;
 }

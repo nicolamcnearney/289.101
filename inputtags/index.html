@@ -1,0 +1,123 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>input tags</title>
+    </head>
+    <body>
+        <!-- target specific section within webpage -->
+        <a href="#nolabel">NoLabelForm</a>
+        
+        <!-- changing colors and style on same paragraph -->
+        <div><p> my paragraph <span class="color2">WITH</span> <span class="color">different colors</span> </p></div>
+        
+        
+        
+        
+        <!-- simple form -->
+        <div class="container">
+           <form> 
+             First Name <input type="text"><!-- text fields -->
+             Last Name <input type="text"><!-- text fields -->
+               <!-- button -->
+               <input type="button" value="Submit">
+               
+           </form>
+        </div>
+        
+       <!-- simple form with styles -->
+        <div class="container">
+           <form> 
+             <label>First Name </label>
+             <input class="textbox" type="text"><!-- text fields -->
+             <label>Last Name</label>
+             <input class="textbox" type="text"><!-- text fields -->
+             <input class="mybtn" type="button" value="Submit"><!-- button -->
+               
+           </form>
+        </div>
+        
+        <!-- simple form with text area -->
+        <div class="container">
+           <form class=""> 
+            <div class="row">
+                <label>First Name</label>
+                <input type="text"><!-- text fields -->
+            </div>
+            <div class="row">
+               <label>Last Name</label>
+               <input type="text"><!-- text fields -->
+               
+            </div>
+            <div class="row">
+               <label>Last Name</label>
+                <!-- text area with 10 height and 90 width -->
+                <textarea rows="10" cols="90">
+                    
+                </textarea> 
+               
+            </div>  
+            <div class="row">
+                <!-- button -->
+               <input class="mybtn2" type="button" value="submit">
+            </div>
+               
+               
+           </form>
+        </div>
+        
+        
+        <!-- simple form with text area and different layout and rounded corners -->
+        <div class="container">
+           <form> 
+            <div class="row">
+             <label>First Name:</label><br><input class="inputForm" type="text">
+            </div>
+            <div class="row">
+               <label>Last Name:</label><br><input class="inputForm" type="text">    
+            </div>
+            <div class="row">
+               <label>Paragraph:</label><br>
+                <!-- text area with 10 height and 90 width -->
+                <textarea class="inputForm" rows="10" cols="90">
+                    
+                </textarea> 
+               
+            </div>  
+            <div class="row">
+                <!-- button -->
+               <input class="mybtn2" type="button" value="submit">
+            </div>
+               
+               
+           </form>
+        </div>
+        
+        
+         <!-- Form No labels -->
+        
+        <div class="container" id="nolabel">
+           <form> 
+            <div class="row">
+            <input class="text2" placeholder="-- Enter First Name -- " type="text">
+            </div>
+            <div class="row">
+               <input class="text2" placeholder="-- Enter Last Name --" type="text">
+               
+            </div>
+            <div class="row">
+        
+                <textarea rows="10" cols="90">
+                    
+                </textarea> 
+               
+            </div>  
+            <div class="row">
+                <!-- button -->
+               <input class="mybtn2" type="button" value="submit">
+            </div>  
+           </form>
+        </div>
+       <!-- container ends -->
+    </body>
+</html>

@@ -1,0 +1,55 @@
+/* general dashed containers */
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:2px dashed;
+    padding: 20px;
+}
+
+/* changing colors on same paragraph */
+.color{
+    color:red;
+    font-style: italic;
+}
+.color2{
+    color:blue;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/* form styles */
+label{
+    color:black;
+    margin-right: 10px;
+}
+.mybtn{
+    color:red;
+    background-color: white;
+}
+.mybtn2{
+    font-size: 16px;
+}
+.textbox{
+    background-color: darkgrey;
+    color:white;
+    border-color:red;
+}
+.row{
+    margin-top: 5px;
+}
+/* rounded corners */
+.inputForm{
+      border-color: #b3b3b3;
+    border-style:solid;
+    -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+   }
+
+.text2{
+    color:black;
+    text-align: center;
+    border-color:grey;
+}

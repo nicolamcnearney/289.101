@@ -87,12 +87,9 @@
             
                 <div class="contactus">
                     <div class="messageus"><b>MESSAGE US</b></div>
-                
-                
-                
+
                     <div class="messagecontainer">
                         <form method= "post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?">
-                        
                             <input type="text" id="fname" name="firstname" placeholder="First Name...">
 
                             <input type="text" id="lname" name="lastname" placeholder="Last Name...">
@@ -128,9 +125,8 @@
                              
                                 $to = "jos@ix.net.nz";
                                 $headers = "From: $email_from \r\n";
-                             
-                                mail($to,$email_subject,$email_body,$headers);></php>
-                             
+                               mail($to,$email_subject,$email_body,$headers);>
+                            </php>
                         </form>
                     </div>
                 </div>
