@@ -1,4 +1,6 @@
-
+div {
+    outline:1px solid black;
+}
 body{
     background-color:#f2f2f2;
     margin:0;
@@ -46,13 +48,19 @@ body{
     width:100%;
 }
 
+.container{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .about{
     height:auto;
     width:100%;
     margin-top:50px;
 }
 .aboutjos{
-    width:75%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -65,14 +73,14 @@ body{
     margin-top:50px;
 }
 .david{
-    width:500px;
+    width:300px;
     float:left;
 }
 .david img{
     width:100%;
 }
 .davidmcnearney{
-    width:585px;
+    width:620px;
     float:left;
     padding-left:20px;
     padding-right:20px;
