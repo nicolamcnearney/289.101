@@ -123,51 +123,62 @@ body{
     margin-right:auto;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 49.7%; /* half width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-input[name=message], select, textarea{
+/* general dashed containers */
+.messagecontainer{
     width:100%;
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=contact-us] {
-    background-color: #a54223;
-    color: white;
-    padding: 12px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: center;
-}
-
-/* When moving the mouse over the submit button, add a darker rust color */
-input[type=contact-us]:hover {
-    background-color: #853a1b;
-}
-
-/* Add a background color and some padding around the form */
-.messagecontainer {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    border-radius:4px;
     padding: 20px;
 }
+
+/* changing colors on same paragraph */
+.color{
+    color:red;
+    font-style: italic;
+}
+.color2{
+    color:blue;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/* form styles */
+.mybtn{
+    color:black;
+    background-color: white;
+    font-size:16px;
+}
+.row{
+    margin-top: 5px;
+}
+/* rounded corners */
+.inputForm{
+    border-color: #b3b3b3;
+    border-style:solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+   }
+
+.name{
+    color:black;
+    text-align: left;
+    border-color:grey;
+}
+.contactnumber{
+    color:black;
+    text-align: center;
+    border-color:grey;
+}
+.email{
+    color:black;
+    text-align:left;
+    border-color:grey;
+}
+
 
 footer{
     background-color:#1b5374;

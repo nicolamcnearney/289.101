@@ -1,0 +1,92 @@
+<div class="messagecontainer">
+    <form method= "post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?">
+    <input type="text" id="fname" name="firstname" placeholder="First Name...">
+
+    <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+                        
+    <input type="text" id="cnumber" name="contactnumber" placeholder="Contact Number...">
+                        
+    <input type="text" id="email" name="e-mail" placeholder="E-Mail...">
+                        
+    <textarea id="message" name="message" placeholder="Message..." style="height:200px"></textarea>
+
+    <input type="contact-us" value="CONTACT US">
+                        
+        <php
+            if (!isset($_POST [contact-us])){
+            echo = "error; you need to submit the form!";
+            }
+                $fname = $_POST [firstname];
+                $lname = $_POST [lastname];
+                $cnumber = $_POST [contactnumber];
+                $email = $_POST [e-mail];
+                $message = $_POST [message];
+                             
+                     if (empty($fname)||empty(lname)||empty($email)){
+                     echo "Name and E-mail are mandatory!";
+                     exit;
+                     }
+                    
+                    $email_from = "jos@ix.net.nz";
+                    $email_subject = "New Form Submission";
+                    $email_body = "You have received a new message from  the user: $fname.\n"
+                    "email address: $email\n"
+                    "Here is the message: \n $message"
+                             
+                    $to = "jos@ix.net.nz";
+                    $headers = "From: $email_from \r\n";
+                    mail($to,$email_subject,$email_body,$headers);>
+        </php>
+    </form>
+</div>
+                    
+                    
+                    
+                    
+                    
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 49.7%; /* half width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[name=message], select, textarea{
+    width:100%;
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=contact-us] {
+    background-color: #a54223;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* When moving the mouse over the submit button, add a darker rust color */
+input[type=contact-us]:hover {
+    background-color: #853a1b;
+}
+
+/* Add a background color and some padding around the form */
+.messagecontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
