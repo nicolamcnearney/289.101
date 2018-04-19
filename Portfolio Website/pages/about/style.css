@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro');
+
 body{
     background-color:#f2f2f2;
     margin:0;
@@ -35,6 +37,9 @@ body{
     margin-left:10px;
     margin-right:10px;
 }
+.links span:hover{
+    color:#a54223;
+}
 .blue{
     color:#1b5374;
 }
@@ -43,6 +48,13 @@ body{
 }
 .banner img{
     width:100%;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container{
@@ -81,6 +93,34 @@ body{
     float:left;
     padding-left:20px;
     padding-right:20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.loremipsum{
+    height:auto;
+    width:100%;
+    margin-bottom:100px;
+}
+
+
+footer{
+    background-color:#1b5374;
+    height:250px;
+}
+.footerquote{
+    color:white;
+    padding-top:88px;
+    padding-bottom:88px;
+    padding-right:50px;
+    padding-left:100px;
+    float:left;
+}
+.footercontactinfo{
+    color:white;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:50px;
+    padding-right:100px;
+    float:right;
 }
 
 

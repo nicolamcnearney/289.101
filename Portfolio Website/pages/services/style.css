@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro');
 
 body{
     background-color:#f2f2f2;
@@ -36,6 +37,9 @@ body{
     margin-left:10px;
     margin-right:10px;
 }
+.links span:hover{
+    color:#a54223;
+}
 .blue{
     color:#1b5374;
 }
@@ -46,8 +50,164 @@ body{
     width:100%;
 }
 
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Source+Sans+Pro', sans-serif;
+}
+
 .container{
     width:960px;
+    height:805px;
+    margin-top:30px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:100px;
+}
+.servicephoto{
+    height:200px;
+    width:300px;
+    float:left;
+}
+.servicephoto img{
+    width:100%;
+}
+.serviceinfo{
+    height:461px;
+    width:620px;
+    padding-left:20px;
+    float:right;
+    margin-left:20px;
+    font-family: 'Source+Sans+Pro', sans-serif;
+}
+.servicelistone{
+    outline:1px solid #ccc;
+    height:220px;
+    width:260px;
+    padding-top:1px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    margin-top:20px;
+    font-size:1.2rem;
+    float:left;
+}
+.servicingprice{
+    height:236px;
+    float:left;
+}
+.servicepricetitle h1{
+    text-align:center;
+}
+.serviceprice{
+    width:100%;
+    height:146px;
+}
+.serviceprice h2{
+    text-align:center;
+}
+.serviceprice h4{
+    text-align:center;
+}
+.serviceprice p{
+    text-align:center;
+}
+.gearboxrebuilding{
+    outline:1px solid #ccc;
+    height:130px;
+    width:160px;
+    margin-right:10px;
+    padding:8px;
+    float:left;
+}
+.powerheadrebuilding{
+    outline:1px solid #ccc;
+    height:130px;
+    width:160px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:8px;
+    float:left;
+}
+.crankshaftrebuilding{
+    outline:1px solid #ccc;
+    height:130px;
+    width:160px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:8px;
+    float:left;
+}
+.enginerebuildingandrepair{
+    outline:1px solid #ccc;
+    height:130px;
+    width:160px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:8px;
+    float:left;
+}
+.powertiltandtrimpumprepair{
+    outline:1px solid #ccc;
+    height:130px;
+    width:160px;
+    margin-left:10px;
+    padding:8px;
+    float:left;
+}
+.servicenotice{
+    height:78px;
+    width:100%;
+    text-align:center;
+    font-size:1.2rem;
+    margin-top:30px;
+}
+.gst{
+    width:320px;
+    float:left;
+}
+.pricevariance{
+    width:320px;
+    float:left;
+}
+.quote{
+    width:320px;
+    float:left;
+}
+.quote a{
+    color:black;
+    text-decoration:none;
+}
+.quote a:hover{
+    color:#a54223;
+}
+footer{
+    background-color:#1b5374;
+    height:250px;
+}
+.footerquote{
+    color:white;
+    padding-top:88px;
+    padding-bottom:88px;
+    padding-right:50px;
+    padding-left:100px;
+    float:left;
+}
+.footercontactinfo{
+    color:white;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:50px;
+    padding-right:100px;
+    float:right;
 }
