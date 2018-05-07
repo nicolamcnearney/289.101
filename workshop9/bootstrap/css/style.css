@@ -1,0 +1,44 @@
+body {
+/*  background-color: red;*/
+}
+.blue {
+    background-color: deepskyblue;
+    height: 50px;
+}
+.green {
+    background-color: greenyellow;
+    height: 150px;
+}
+.orange {
+    background-color: orange;
+    height: 100px;
+}
+.grey {
+    background-color: lightgrey;
+    height: 50px;
+}
+
+/* sm devices */
+@media (min-width: 576px) {
+    body {
+        background-color: red;
+    }
+}
+/* md */
+@media (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+/* lg */
+@media (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+}
+/* xl */
+@media (min-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+}
