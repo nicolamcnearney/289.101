@@ -3,42 +3,64 @@ body {
 }
 .blue {
     background-color: deepskyblue;
-    height: 50px;
+    height: 100px;
 }
 .green {
     background-color: greenyellow;
-    height: 150px;
+    float: left;
+    height: 100px;
 }
 .orange {
     background-color: orange;
-    height: 100px;
+    float: left;
+    height:600px;
 }
 .maroon {
     background-color: maroon;
-    height: 50px;
+    float: right;
+    height: 200px;
 }
 
 /* sm devices */
-/* @media (min-width: 576px) {
-    body {
-        background-color: red;
+@media (min-width: 576px) {
+    .blue {
+        height: 100px;
+    }
+    .green {
+        height: 200px;
+    }
+    .orange {
+        height: 500px;
+    }
+    .maroon {
+        height: 500px;
     }
 }
-/* md */
-/* @media (min-width: 768px) {
-    body {
-        background-color: orange;
+/* md devices */
+@media (min-width: 768px) {
+    .blue {
+        height: 60px;
+    }
+    .green {
+        height: 800px;
+    }
+    .orange {
+        height: 800px;
+    }
+    .maroon {
+        height: 800px;
     }
 }
+
 /* lg */
 /* @media (min-width: 992px) {
-    body {
-        background-color: green;
+    .blue {
+        height: 50px;
     }
 }
 /* xl */
 /* @media (min-width: 1200px) {
-    body {
-        background-color: blue;
+    .blue {
+        height: 50px;
     }
 }
