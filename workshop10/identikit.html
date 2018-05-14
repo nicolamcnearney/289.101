@@ -56,8 +56,8 @@
     <a id="eye_further_btn">move eyes further apart</a>
     <a id="eye_hollow_btn">hollow eyes</a>
     <a id="eye_solid_btn">solid eyes</a>
-    <a>big eyes</a>
-    <a>small eyes</a>
+    <a id="eye_big_btn">big eyes</a>
+    <a id="eye_small_btn">small eyes</a>
     <a>no right eye</a>
     <a id="mouth_happy_btn">happy mouth</a>
     <a id="mouth_sad_btn">sad mouth</a>
@@ -105,15 +105,31 @@
       eye_right_y += 10;
       document.getElementById('eye_right').style.top = eye_right_y + 'px';
     });
-    
-      
-      
-      
+     
     document.getElementById('eye_closer_btn').addEventListener('click', function() {
-        eye_left_
+        eye_left_x += 10;
+        document.getElementById('eye_left').style.left = eye_left_x + 'px';
+        eye_right_x -= 10;
+        document.getElementById('eye_right').style.left = eye_right_x + 'px';
     })
     
     document.getElementById('eye_further_btn').addEventListener('click', function() {
+        eye_left_x -= 10;
+        document.getElementById('eye_left').style.left = eye_left_x + 'px';
+        eye_right_x += 10;
+        document.getElementById('eye_right').style.left = eye_right_x + 'px';
+    })
+    
+    
+    
+    
+    
+    
+    document.getElementById('eye_big_btn').addEventListener('click', function() {
+       
+    })
+    
+    document.getElementById('eye_small_btn').addEventListener('click', function() {
         
     })
     
