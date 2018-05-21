@@ -1,0 +1,63 @@
+#arena {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin-left: 20%;
+  background-color: DarkCyan;
+  outline: DarkCyan 5px outset;
+}
+
+#gap {
+  position: absolute;
+  left: 250px;
+  top: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  outline: DarkCyan 5px inset;
+}
+
+#puck {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: 1;
+  background-color: yellow;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+#controls {
+  position: fixed;
+  z-index: 2;
+  top: 100px;
+}
+
+#controls a {
+  display: block;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: 5px 2px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  line-height: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+#controls a:hover {
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#left, #updown, #right {
+  display: block;
+  float: left;
+}
+
+#updown {
+  margin-top: -15px;
+}
